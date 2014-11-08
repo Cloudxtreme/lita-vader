@@ -1,6 +1,7 @@
 # lita-vader
 
 [![Build Status](https://travis-ci.org/lonelyplanet/lita-vader.svg)](https://travis-ci.org/lonelyplanet/lita-vader)
+[![Code Climate](https://codeclimate.com/github/lonelyplanet/lita-vader/badges/gpa.svg)](https://codeclimate.com/github/lonelyplanet/lita-vader)
 
 Lita handler to tell you who a user's father is
 
