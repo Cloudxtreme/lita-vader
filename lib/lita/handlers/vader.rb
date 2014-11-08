@@ -7,7 +7,7 @@ module Lita
 
       def father(response)
         child = response.matches[0][0]
-        response.reply("@#{child}, I am your father!")
+        response.reply("#{child}, I am your father!")
       end
     end
 
