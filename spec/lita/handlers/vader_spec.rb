@@ -9,7 +9,7 @@ describe Lita::Handlers::Vader, lita_handler: true do
   describe 'father' do
     it "explains who a user's father is" do
       send_command("who is Luke's father?")
-      expect(replies.last).to eq("@Luke, I am your father!")
+      expect(replies.last).to eq("Luke, I am your father!")
     end
   end
 end

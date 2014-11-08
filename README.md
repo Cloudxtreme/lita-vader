@@ -25,7 +25,7 @@ The following is how you ask Lita who Luke's father is. You can specify any user
 
 ```
 You: Lita who is Luke's father?
-Lita: @Luke, I am your father!
+Lita: Luke, I am your father!
 ```
 
 ## License
