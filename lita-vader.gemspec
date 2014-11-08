@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-vader"
-  spec.version       = "0.0.1"
+  spec.version       = "0.1.0"
   spec.authors       = ["Lee Jones", "Brian Pitts"]
   spec.description   = %q{Lita handler to tell you who a user's father is}
   spec.summary       = spec.description
