@@ -1,4 +1,24 @@
-lita-vader
-==========
+# lita-vader
 
-Lita handler to tell you who a user's father is
+TODO: Add a description of the plugin.
+
+## Installation
+
+Add lita-vader to your Lita instance's Gemfile:
+
+``` ruby
+gem "lita-vader"
+```
+
+
+## Configuration
+
+TODO: Describe any configuration attributes the plugin exposes.
+
+## Usage
+
+TODO: Describe the plugin's features and how to use them.
+
+## License
+
+[MIT](http://opensource.org/licenses/MIT)
