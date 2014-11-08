@@ -2,8 +2,12 @@ require "spec_helper"
 
 describe Lita::Handlers::Vader, lita_handler: true do
 
-  it 'routes questions about fathers' do
+  it 'routes questions with normal quotes' do
     expect(subject).to route_command("who is Luke's father?").to(:father)
+  end
+
+  it 'routes questions with fancy quotes' do
+    expect(subject).to route_command("who is Luke’s father?").to(:father)
   end
 
   describe 'father' do
