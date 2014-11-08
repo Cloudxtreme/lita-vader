@@ -1,6 +1,6 @@
 # lita-vader
 
-TODO: Add a description of the plugin.
+Lita handler to tell you who a user's father is
 
 ## Installation
 
@@ -13,11 +13,16 @@ gem "lita-vader"
 
 ## Configuration
 
-TODO: Describe any configuration attributes the plugin exposes.
+No configuration is required.
 
 ## Usage
 
-TODO: Describe the plugin's features and how to use them.
+The following is how you ask Lita who Luke's father is. You can specify any user in your chat instead of _Luke_.
+
+```
+You: Lita who is Luke's father?
+Lita: @Luke, I am your father!
+```
 
 ## License
 
