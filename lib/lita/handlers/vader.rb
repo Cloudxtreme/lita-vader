@@ -1,7 +1,7 @@
 module Lita
   module Handlers
     class Vader < Handler
-      route(/who is (.*)'s father\?/, :father)
+      route(/who is (.*)'s father\?/, :father, command: true)
 
       def father(response)
         child = response.matches[0][0]
